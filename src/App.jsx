@@ -1,12 +1,17 @@
 import viteLogo from "/vite.svg";
 import "./App.css";
-import TalentPoolDesign from "./components/TalentPoolDesign";
+import DesignInstitute from "./component/DesignInstitute";
+import Footer from "./component/Footer";
+import TalentPoolDesign from "./component/TalentPoolDesign";
+
 
 function App() {
 
   return (
     <>
-    <TalentPoolDesign/>
+        <TalentPoolDesign/>
+     <DesignInstitute />
+      <Footer />
     </>
   );
 }
