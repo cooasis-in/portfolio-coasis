@@ -1,14 +1,20 @@
-import viteLogo from "/vite.svg";
 import "./App.css";
-import TalentPoolDesign from "./components/TalentPoolDesign";
-import WorkShowcase from "./components/WorkShowcase";
+import WorkShowcase from "./component/WorkShowcase";
+import DesignInstitute from "./component/DesignInstitute";
+import Footer from "./component/Footer";
+import TalentPoolDesign from "./component/TalentPoolDesign";
+import CommunityDesigner from "./component/CommunityDesigner";
+import DotGrid from "./component/common/DotGrid";
 
 function App() {
-
   return (
     <>
-    <WorkShowcase/>
-    <TalentPoolDesign/>
+    <DotGrid/>
+      <CommunityDesigner />
+      <WorkShowcase />
+      <TalentPoolDesign />
+      <DesignInstitute />
+      <Footer />
     </>
   );
 }
