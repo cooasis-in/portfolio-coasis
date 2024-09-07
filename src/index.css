@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  cursor: url("/images/cursor.svg"), auto;
+  background-color: #eee8e2 !important;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 650px) {
-
   .container {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
-
 }
