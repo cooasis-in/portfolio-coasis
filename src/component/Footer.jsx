@@ -42,7 +42,7 @@ const Footer = () => {
                     className="border-[1px] border-[#2229FF] py-3 sm:py-5 px-3 max-w-[235px]"
                   />
                 </div>
-                <div className="pb-[8px]">
+                <div className="pb-[8px] cursor-pointer">
                   <img src="/images/right-arrow.svg" alt="" />
                 </div>
               </div>

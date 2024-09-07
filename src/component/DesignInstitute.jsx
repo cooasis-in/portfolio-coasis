@@ -28,7 +28,7 @@ const DesignInstitute = () => {
             <button className="text-[20px] sm:text-[25px] text-[#2229FF] leading-[28px] bg-[#EEE8E2] rounded-full px-6 py-3 text-center font-normal">
               Join the community
             </button>
-            <img src="/images/right-arrow.svg" alt="" />
+            <img src="/images/right-arrow.svg" alt="" className="cursor-pointer" />
           </div>
         </div>
       </section>
