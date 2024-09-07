@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const DotGrid = () => {
+const DotGrid = ({children}) => {
   const [hoveredDot, setHoveredDot] = useState({ row: null, col: null });
   const [screenSize, setScreenSize] = useState({
     width: window.innerWidth,

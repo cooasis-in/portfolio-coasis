@@ -4,6 +4,7 @@
 
 body {
   cursor: url("/images/cursor.svg"), auto;
+  background-color: #eee8e2 !important;
 }
 
 .container {
