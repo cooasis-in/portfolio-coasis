@@ -6,10 +6,10 @@ const DesignMeetup = () => {
       <section className="py-10">
         <div className="container mx-auto flex flex-col justify-center items-center !relative">
           <div className="mx-auto text-center">
-            <h1 className="text-[110px] text-[#232323] leading-[110px] max-w-[900px]">
+            <h1 className="f-HelveticaNeue text-[110px] text-[#232323] leading-[110px] max-w-[900px]">
               Join India's <span className="text-[#2229FF]">Premier</span> Design Meetup
             </h1>
-            <p className="text-[40px] text-[#232323] leading-[40px] max-w-[650px] pt-10 mx-auto">
+            <p className="f-HelveticaNeue text-[40px] text-[#232323] leading-[40px] max-w-[650px] pt-10 mx-auto">
               Connect with likeminded people offline or online
             </p>
           </div>

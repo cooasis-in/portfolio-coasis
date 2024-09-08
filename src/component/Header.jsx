@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
       <nav className="flex justify-between p-2 pt-7 items-center z-40">
         <div></div>
-        <img className="cursor-pointer" src="/images/logo.svg" alt="Logo" />
+        <img className="cursor-pointer" src="/images/header-logo.svg" alt="Logo" />
         <p className="f-HelveticaNeue text-[#232323] text-[20px] cursor-pointer">Menu</p>
       </nav>
       </div>
