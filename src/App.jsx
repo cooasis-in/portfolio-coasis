@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       {/* <DotGrid /> */}
-      {/* <HomeMaster /> */}
+      <HomeMaster />
       <DesignMaster />
-      {/* <FashionAMaster /> */}
-      {/* <MeetUpMaster /> */}
+      <FashionAMaster />
+      <MeetUpMaster />
     </>
   );
 }
