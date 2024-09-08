@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 
-const DotGrid = ({children}) => {
+const DotGrid = ({ children }) => {
   const [hoveredDot, setHoveredDot] = useState({ row: null, col: null });
+  const [isHovered, setIsHovered] = useState(false);
   const [screenSize, setScreenSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -55,14 +56,16 @@ const DotGrid = ({children}) => {
 
   return (
     <div
-      className="grid-container w-full h-screen relative"
+      className="grid-container w-full h-screen relative bg-white"
       onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
       {grid.map((dot) => (
         <div
           key={dot.id}
           className={`dot w-[2px] h-[2px] bg-[#232323] rounded-full transition-opacity duration-300 ${
-            isWithinProximity(dot.row, dot.col) ? "opacity-20" : "opacity-100"
+            isWithinProximity(dot.row, dot.col) && isHovered ? "opacity-100" : "opacity-0"
           }`}
           style={{
             position: "absolute",

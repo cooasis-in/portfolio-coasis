@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function Hero() {
   return (
     <div className="bg-[#EEE8E2] f-HelveticaNeue">
-       <main className="w-full flex flex-col justify-center items-center">
+      <main className="w-full flex flex-col justify-center items-center">
         <div className=" flex flex-col text-center">
           <p className="text-[#232323] f-PPNeueBit text-[70px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[350px]">
             connect
