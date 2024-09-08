@@ -10,7 +10,7 @@ const DotGrid = ({ children }) => {
 
   // Set the dot size
   const dotSize = 20;
-  const proximityRadius = 2; // Number of rows/cols around the hovered dot to fade
+  const proximityRadius = 14 // Number of rows/cols around the hovered dot to fade
 
   // Update the screen size dynamically when the window is resized
   useEffect(() => {
@@ -56,7 +56,7 @@ const DotGrid = ({ children }) => {
 
   return (
     <div
-      className="grid-container w-full h-screen relative bg-white"
+      className="grid-container w-full h-screen relative bg-[##eee8e2 ]"
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -65,7 +65,9 @@ const DotGrid = ({ children }) => {
         <div
           key={dot.id}
           className={`dot w-[2px] h-[2px] bg-[#232323] rounded-full transition-opacity duration-300 ${
-            isWithinProximity(dot.row, dot.col) && isHovered ? "opacity-100" : "opacity-0"
+            isWithinProximity(dot.row, dot.col) && isHovered
+              ? "opacity-100"
+              : "opacity-0"
           }`}
           style={{
             position: "absolute",

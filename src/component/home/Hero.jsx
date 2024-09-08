@@ -1,17 +1,21 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { AnimatedTooltipPreview } from "../common/AnimatedTooltipPreview";
 
 function Hero() {
   return (
     <div className="bg-[#EEE8E2] f-HelveticaNeue">
       <main className="w-full flex flex-col justify-center items-center">
-        <div className=" flex flex-col text-center">
+        <div className="relative flex flex-col text-center">
           <p className="text-[#232323] f-PPNeueBit text-[70px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[350px]">
             connect
           </p>
           <p className="text-[#2229FF] f-HelveticaNeue text-[40px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[250px] mt-[-2rem] md:mt-[-3rem] lg:mt-[-5rem] xl:mt-[-7rem]">
             colabborate
           </p>
+          {/* <div className="absolute top-[28rem] w-[1200px] left-[-3rem]">
+            <img src="images/blueSquare.svg" alt="" />
+          </div> */}
         </div>
         <div className="mt-[-1rem] md:mt-[-2rem] lg:mt-[-3rem] xl:mt-[-4rem] flex flex-col md:flex-row gap-8 justify-center items-center text-center">
           <span className="text-[40px] f-BelgianoSerif sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[250px]">
@@ -42,9 +46,7 @@ function Hero() {
           </h1>
           <div className="relative mt-4">
             <div className="absolute flex -space-x-4 top-[-1.5rem] md:top-[-2rem] lg:top-[-4.5rem] left-1/2 lg:left-[14rem] transform -translate-x-1/2 lg:transform-none">
-              <img src="images/person-avatar1.svg" alt="Avatar 1" />
-              <img src="images/person-avatar2.svg" alt="Avatar 2" />
-              <img src="images/person-avatar3.svg" alt="Avatar 3" />
+              <AnimatedTooltipPreview />
             </div>
           </div>
         </div>
@@ -118,7 +120,7 @@ function Hero() {
         </div>
         {/* animation */}
 
-        <div>
+        <div className="relative">
           {/* Text moving from left to right */}
           <div className="relative overflow-x-hidden w-full h-[6rem] mt-[5rem] flex justify-center items-center">
             {/* Subtle blue shadow gradient on the left */}
@@ -130,9 +132,30 @@ function Hero() {
               </span>
             </div>
           </div>
+          <div className="absolute top-[-1rem] left-[-0.5rem]">
+            <img src="images/Rectangleleft.svg" alt="" />
+          </div>
+          <div className="absolute top-[8.5rem] right-[-0.5rem]">
+            <img src="images/RectangleRight.svg" alt="" />
+          </div>
+
+          <div className="absolute top-[-1.1rem] left-[-0.6rem]">
+            <img src="images/square.svg" alt="" />
+          </div>
+          <div className="absolute left-[-0.6rem] top-[6.33rem]">
+            <img src="images/square.svg" alt="" />
+          </div>
+
+          {/* Square svg 1st*/}
+          <div className="absolute top-[8.4rem] right-[-0.5rem]">
+            <img src="images/square.svg" alt="" />
+          </div>
+          <div className="absolute top-[15.8rem] right-[-0.5rem]">
+            <img src="images/square.svg" alt="" />
+          </div>
 
           {/* Text moving from right to left */}
-          <div className="relative overflow-x-hidden w-full h-[6rem] mt-[1rem] flex justify-center items-center">
+          <div className="relative overflow-x-hidden w-full h-[6rem] mt-[3.5rem] flex justify-center items-center">
             {/* Moving text */}
             <div className="whitespace-nowrap animate-move-left text-lg font-medium text-fade-left">
               <span className="inline-block text-[100px] f-PPNeueBit">

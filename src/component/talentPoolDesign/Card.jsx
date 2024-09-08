@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { AnimatedTooltipPreview } from "../common/AnimatedTooltipPreview";
 
 function Card() {
   const [selected, setSelected] = useState("All");
@@ -19,33 +20,18 @@ function Card() {
       <div className="flex flex-col justify-center mt-[8rem]">
         {/* Main Text */}
         <div className="text-[70px]  text-black text-center">
-          Talent p
-          <span className="relative inline-block">
-            {/* Adding avatar images inside text */}o
-            <span className="absolute flex top-[-25px] left-[10px] space-x-[-10px]">
-              {/* Avatar images */}
-              <img
-                src="images/person-avatar1.svg"
-                alt="Avatar 1"
-                className="w-8 h-8"
-              />
-              <img
-                src="images/person-avatar2.svg"
-                alt="Avatar 2"
-                className="w-8 h-8"
-              />
-              <img
-                src="images/person-avatar3.svg"
-                alt="Avatar 3"
-                className="w-8 h-8"
-              />
-            </span>
+          {/* Talent p */}
+          <span className="f-HelveticaNeue">
+            <span>Talent </span>p
+            <span className="relative mt-8 inline-block align-middle">
+              <AnimatedTooltipPreview />
+            </span>{" "}
           </span>
-          l united
+          <span className="f-HelveticaNeue">&nbsp;l united</span>
         </div>
         {/* Subheading */}
-        <div className="text-[70px] font-light text-black mt-4 text-center">
-          by design
+        <div className="f-BelgianoSerif text-[70px] leading-10 font-light text-black mt-4 text-center">
+          <span className="f-HelveticaNeue">by</span> design
         </div>
       </div>
 
