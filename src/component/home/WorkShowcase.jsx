@@ -1,4 +1,6 @@
 import React from "react";
+import { AnimatedTooltipPreview } from "../common/AnimatedTooltipPreview";
+import "./wrokShowcase.css";
 
 const WorkShowcase = () => {
   return (
@@ -8,16 +10,14 @@ const WorkShowcase = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#232323] leading-tight f-HelveticaNeue">
           Where people connect,
           <br />
-          <span className="inline-block">collaborate and create</span>
+          <span>collaborate and create</span>
           <br />
-          <span className="inline-block relative">
-            <span>t</span>
-            <img
-              src="https://placekitten.com/24/24"
-              alt="user avatars"
-              className="inline-block w-6 h-6 rounded-full mx-2 align-middle"
-            />
-            <span>gether</span>
+          <span>
+            t{" "}
+            <span className="relative mt-8 inline-block align-middle">
+              <AnimatedTooltipPreview />
+            </span>{" "}
+            gether
           </span>
         </h1>
       </div>
