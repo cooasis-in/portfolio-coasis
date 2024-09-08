@@ -5,7 +5,7 @@ const WorkShowcase = () => {
     <div className="bg-gray-50 min-h-screen flex flex-col justify-center items-center px-6">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#232323] leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#232323] leading-tight f-HelveticaNeue">
           Where people connect,
           <br />
           <span className="inline-block">collaborate and create</span>
