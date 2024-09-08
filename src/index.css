@@ -2,18 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  cursor: url("/images/cursor.svg"), auto;
+  background-color: #eee8e2 !important;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 650px) {
-
   .container {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
 }
+<<<<<<< HEAD
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -23,3 +28,48 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+=======
+
+/* fonts */
+
+.f-HelveticaNeue {
+  font-family: "HelveticaNeue";
+}
+
+.f-PPNeueBit {
+  font-family: "PPNeueBit";
+}
+
+.f-BelgianoSerif {
+  font-family: "BelgianoSerif";
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/public/font/HelveticaNeue.ttc") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueBit";
+  src: url("/public/font/PPNeueBit-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BelgianoSerif";
+  src: url("/public/font/Belgiano\ Serif\ 2.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "BelgianoSerif";
+  src: url("/public/font/") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+>>>>>>> 2a0e31f1e21a988ad927a6c6a178a42c5cdf24d8

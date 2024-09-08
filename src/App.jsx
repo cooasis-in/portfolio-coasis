@@ -1,21 +1,20 @@
-import viteLogo from "/vite.svg";
-import "./App.css";
-import DesignInstitute from "./component/DesignInstitute";
-import Footer from "./component/Footer";
-import TalentPoolDesign from "./component/TalentPoolDesign";
-import Events from "./component/Events";
-import FutureNetworkSection from "./component/FutureNetworkSection";
-
+import { Routes, Route } from "react-router-dom";
+import FashionAMaster from "./component/fashionArticle/FashionAMaster";
+import MeetUpMaster from "./component/meetupPriemier/MeetUpMaster";
+import HomeMaster from "./component/home/HomeMaster";
+import DotGrid from "./component/common/DotGrid";
+import DesignMaster from "./component/talentPoolDesign/DesignMaster";
 
 function App() {
-
   return (
     <>
-      <TalentPoolDesign/>
-      <Events/>
-      <FutureNetworkSection/>
-     <DesignInstitute />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomeMaster />} />
+        <Route path="/secondPage" element={<DesignMaster />} />
+        <Route path="/thirdPage" element={<FashionAMaster />} />
+        <Route path="/fourthPage" element={<MeetUpMaster />} />
+      </Routes>
+
     </>
   );
 }

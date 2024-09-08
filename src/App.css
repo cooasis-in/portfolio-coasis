@@ -1,10 +1,11 @@
-/* Hide scrollbar */
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-  
+.grid-container {
+  position: relative;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: black;
+  transition: opacity 0.3s ease;
+}
