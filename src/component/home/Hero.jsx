@@ -4,12 +4,6 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function Hero() {
   return (
     <div className="bg-[#EEE8E2] f-HelveticaNeue">
-      <nav className="flex justify-between p-8 items-center z-40">
-        <div></div>
-        <img className="cursor-pointer" src="images/logo.svg" alt="Logo" />
-        <p className="text-[#232323] text-[20px] cursor-pointer">Menu</p>
-      </nav>
-
       <main className="w-full flex flex-col justify-center items-center">
         <div className=" flex flex-col text-center">
           <p className="text-[#232323] f-PPNeueBit text-[70px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[350px]">
