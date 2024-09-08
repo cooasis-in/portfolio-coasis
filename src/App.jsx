@@ -7,9 +7,9 @@ import SecondPage from "./components/SecondPage/SecondPage";
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       {/* <Card /> */}
-      <SecondPage />
+      {/* <SecondPage /> */}
     </>
   );
 }
