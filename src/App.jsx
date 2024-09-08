@@ -6,10 +6,10 @@ import DotGrid from "./component/common/DotGrid";
 function App() {
   return (
     <>
-      <DotGrid />
-      <HomeMaster />
+      {/* <DotGrid />
+      <HomeMaster /> */}
       <FashionAMaster />
-      <MeetUpMaster />
+      {/* <MeetUpMaster /> */}
     </>
   );
 }
