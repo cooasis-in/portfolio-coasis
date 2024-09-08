@@ -9,7 +9,7 @@ import DotGrid from "../common/DotGrid";
 const HomeMaster = () => {
   return (
     <div>
-      <DotGrid/>
+      {/* <DotGrid/> */}
       <Hero />
       <CommunityDesigner />
       <WorkShowcase />

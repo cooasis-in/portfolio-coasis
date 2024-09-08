@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TalentPoolDesign = () => {
   return (
@@ -69,12 +70,15 @@ const TalentPoolDesign = () => {
       </div>
 
       {/* Show more button */}
+      <Link to="/secondPage">
       <div className="flex justify-center">
-        <button className="f-HelveticaNeue px-6 py-3 text-[20px] leading-[23px] rounded-full bg-[#1A1A1A] text-[#EEE8E2] hover:text-[#EEE8E2] transition-all duration-300">
+     
+        <button className="f-HelveticaNeue px-6 py-3 text-[20px] leading-[23px] rounded-full bg-[#1A1A1A] text-[#403F3E] hover:text-[#EEE8E2]">
           Show more 
         </button>
         <img src="/images/black-arrow.svg" alt="" />
       </div>
+      </Link>
     </div>
   );
 };
