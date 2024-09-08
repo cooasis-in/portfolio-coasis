@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-function Header() {
+function Hero() {
   return (
     <div className="bg-[#EEE8E2] f-HelveticaNeue">
       <nav className="flex justify-between p-8 items-center z-40">
@@ -155,4 +155,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Hero;
