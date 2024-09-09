@@ -34,7 +34,7 @@ function Card() {
               <AnimatedTooltipPreview />
             </span>{" "}
           </span>
-          <span className="f-HelveticaNeue">&nbsp;l united</span>
+          <span className="f-HelveticaNeue">l united</span>
         </div>
         {/* Subheading */}
         <div className="f-BelgianoSerif text-[70px] leading-10 font-light text-black mt-4 text-center">
@@ -47,7 +47,7 @@ function Card() {
           <button
             key={filter}
             onClick={() => setSelected(filter)}
-            className={`px-4 py-2 rounded-full  ${
+            className={`px-4 py-2 rounded-full hover:bg-[#2229FF] hover:text-[#EEE8E2]  ${
               selected === filter
                 ? "bg-[#2229FF] text-[#EEE8E2]"
                 : "bg-[#DADADA] text-[#212121]"
