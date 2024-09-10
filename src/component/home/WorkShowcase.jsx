@@ -27,7 +27,7 @@ const WorkShowcase = () => {
         <div className="bg-[#3E45FF] text-[#EEE8E2] p-8 rounded-[20px] max-w-[400px]">
           <h2 className="f-HelveticaNeue text-[26px] text-[#EEE8E2] leading-[30px]">Curated Design Work</h2>
           <p className="f-HelveticaNeue mt-8 text-[20px] text-[#EEE8E2] leading-[25px] font-light">
-            Work and interact with the top 1% of design talent across the
+            Work and interact with the top 1% of design talent across the <br />
             country
           </p>
           <div className="flex items-center mt-10">

@@ -3,7 +3,7 @@ import React from 'react';
 const DesignInstitute = () => {
   return (
     <>
-      <section className="pt-14">
+      <section className="py-16">
         <div className="container mx-auto bg-[#2229FF] rounded-[20px]">
           <div className="max-w-[800px] mx-auto pt-10">
             <h2 className="f-HelveticaNeue text-[40px] sm:text-[60px] lg:text-[80px] text-[#EEE8E2] leading-[50px] sm:leading-[70px] lg:leading-[90px] text-center">
@@ -24,7 +24,7 @@ const DesignInstitute = () => {
               <p className="f-HelveticaNeue text-[16px] sm:text-[18px] text-[#EEE8E2] ml-2">National Institute of Fashion Technology</p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-center pb-10 space-y-4 sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center pb-10 space-y-4 sm:space-y-0">
             <button className="f-HelveticaNeue text-[20px] sm:text-[25px] text-[#2229FF] leading-[28px] bg-[#EEE8E2] rounded-full px-6 py-3 text-center font-normal">
               Join the community
             </button>

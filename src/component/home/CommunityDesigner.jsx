@@ -85,11 +85,10 @@ const CommunityDesigner = () => {
                   className="w-full h-auto object-cover"
                 />
                 <div
-                  className={`absolute bottom-4 left-0 right-0 p-4 flex items-center justify-between rounded-[15px] mx-3 ${
-                    openIndexes.firstSlider === index
+                  className={`absolute bottom-4 left-0 right-0 p-4 flex items-center justify-between rounded-[15px] mx-3 ${openIndexes.firstSlider === index
                       ? "bg-[#FFFFFF57] backdrop-blur rounded-tl-[0px] rounded-tr-[0px] rounded-bl-[15px] rounded-br-[15px]"
                       : "bg-[#FFFFFF57] backdrop-blur"
-                  }`}
+                    }`}
                 >
                   <div>
                     <p className="f-HelveticaNeue text-[20px] text-[#EEE8E2] leading-[23px] mb-1">
@@ -118,15 +117,9 @@ const CommunityDesigner = () => {
                   <div className="absolute bottom-[107px] left-0 right-0 bg-[#FFFFFF57] backdrop-blur p-3 rounded-tl-[15px] rounded-tr-[15px] mx-3">
                     <div className="border-b-[1px] border-b-[#FFFFFF36]">
                       <p className="f-HelveticaNeue text-[13px] text-[#080808] leading-[15px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.  Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum."
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <br />
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                       </p>
                       <div className="flex items-start space-x-4 my-3 relative">
                         <div className="absolute bottom-[2px]">
@@ -164,11 +157,10 @@ const CommunityDesigner = () => {
                   className="w-full h-auto object-cover"
                 />
                 <div
-                  className={`absolute bottom-4 left-0 right-0 p-4 flex items-center justify-between rounded-[15px] mx-3 ${
-                    openIndexes.secondSlider === index
+                  className={`absolute bottom-4 left-0 right-0 p-4 flex items-center justify-between rounded-[15px] mx-3 ${openIndexes.secondSlider === index
                       ? "bg-[#FFFFFF57] backdrop-blur rounded-tl-[0px] rounded-tr-[0px] rounded-bl-[15px] rounded-br-[15px]"
                       : "bg-[#FFFFFF57] backdrop-blur"
-                  }`}
+                    }`}
                 >
                   <div>
                     <p className="f-HelveticaNeue text-[20px] text-[#EEE8E2] leading-[23px] mb-1">

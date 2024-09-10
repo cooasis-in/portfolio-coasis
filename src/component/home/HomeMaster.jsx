@@ -15,9 +15,9 @@ const HomeMaster = () => {
       <CommunityDesigner />
       <WorkShowcase />
       <TalentPoolDesign />
-      <DesignInstitute />
       <Events />
       <FutureNetworkSection />
+      <DesignInstitute />
     </div>
   );
 };
