@@ -2,8 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import FashionAMaster from "./component/fashionArticle/FashionAMaster";
 import MeetUpMaster from "./component/meetupPriemier/MeetUpMaster";
 import HomeMaster from "./component/home/HomeMaster";
-import DesignMaster from "./component/talentPoolDesign/DesignMaster";
 import MouseAnimation from "./component/common/MouseAnimation";
+import DesignMaster from "./component/talentPoolDesign/DesignMaster";
+
 
 function App() {
   return (
