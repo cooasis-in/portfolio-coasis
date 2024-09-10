@@ -68,7 +68,7 @@ const Events = () => {
                     </button>
                   </div>
                   <p className="f-HelveticaNeue text-[15px] text-[#000000] leading-[18px] font-light mb-5">Date & Time: TBA</p>
-                  <h2 className="f-HelveticaNeue text-[28px] text-[#232323] leading-[32px]">A Nex-gen experience lab for designers</h2>
+                  <h2 className="f-HelveticaNeue text-[25px] text-[#232323] leading-[29px]">A Nex-gen experience lab for designers</h2>
                  <div className="flex items-center mt-2">
                  <button className="f-HelveticaNeue bg-[#2229FF] py-3 px-5 rounded-full text-[20px] text-[#EEE8E2] leading-[23px]">
                     Know more
@@ -87,7 +87,7 @@ const Events = () => {
                     </button>
                   </div>
                   <p className="f-HelveticaNeue text-[15px] text-[#000000] leading-[18px] font-light mb-5">Date & Time: TBA</p>
-                  <h2 className="f-HelveticaNeue text-[28px] text-[#232323] leading-[32px]">A Nex-gen experience lab for designers</h2>
+                  <h2 className="f-HelveticaNeue text-[25px] text-[#232323] leading-[29px]">A Nex-gen experience lab for designers</h2>
                  <div className="flex items-center mt-2">
                  <button className="f-HelveticaNeue bg-[#2229FF] py-3 px-5 rounded-full text-[20px] text-[#EEE8E2] leading-[23px]">
                  Remind me
@@ -104,7 +104,7 @@ const Events = () => {
                     </button>
                   </div>
                   <p className="f-HelveticaNeue text-[15px] text-[#000000] leading-[18px] font-light mb-5">Date & Time: TBA</p>
-                  <h2 className="f-HelveticaNeue text-[28px] text-[#232323] leading-[32px]">A Nex-gen experience lab for designers</h2>
+                  <h2 className="f-HelveticaNeue text-[25px] text-[#232323] leading-[29px]">A Nex-gen experience lab for designers</h2>
                  <div className="flex items-center mt-2">
                  <button className="f-HelveticaNeue bg-[#2229FF] py-3 px-5 rounded-full text-[20px] text-[#EEE8E2] leading-[23px]">
                  Know more
