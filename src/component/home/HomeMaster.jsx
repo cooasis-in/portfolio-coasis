@@ -4,7 +4,6 @@ import WorkShowcase from "./WorkShowcase";
 import TalentPoolDesign from "./TalentPoolDesign";
 import DesignInstitute from "./DesignInstitute";
 import Hero from "./Hero";
-import WaterDropGrid from "../common/WaterDropGrid";
 import Events from "./Events";
 import FutureNetworkSection from "./FutureNetworkSection";
 
