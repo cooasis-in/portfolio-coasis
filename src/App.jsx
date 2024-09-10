@@ -4,6 +4,7 @@ import MeetUpMaster from "./component/meetupPriemier/MeetUpMaster";
 import HomeMaster from "./component/home/HomeMaster";
 import DotGrid from "./component/common/DotGrid";
 import DesignMaster from "./component/talentPoolDesign/DesignMaster";
+import Events from "./component/Events";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeMaster />} />
         <Route path="/secondPage" element={<DesignMaster />} />
+        <Route path="/secondPage" element={<Events />} />
         <Route path="/thirdPage" element={<FashionAMaster />} />
         <Route path="/fourthPage" element={<MeetUpMaster />} />
       </Routes>
