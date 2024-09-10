@@ -4,12 +4,13 @@ import WorkShowcase from "./WorkShowcase";
 import TalentPoolDesign from "./TalentPoolDesign";
 import DesignInstitute from "./DesignInstitute";
 import Hero from "./Hero";
-import DotGrid from "../common/DotGrid";
+import WaterDropGrid from "../common/WaterDropGrid";
 
 const HomeMaster = () => {
   return (
     <div>
-      <DotGrid/>
+      {/* <DotGrid/> */}
+      <WaterDropGrid />
       <Hero />
       <CommunityDesigner />
       <WorkShowcase />
