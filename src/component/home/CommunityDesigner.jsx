@@ -12,7 +12,7 @@ const CommunityDesigner = () => {
   const toggleOpen = (index, sliderName) => {
     setOpenIndexes((prevState) => ({
       ...prevState,
-      [sliderName]: prevState[sliderName] === index ? -1 : index, 
+      [sliderName]: prevState[sliderName] === index ? -1 : index,
     }));
   };
 

@@ -6,28 +6,52 @@ function Hero() {
   return (
     <div className="bg-[#EEE8E2] f-HelveticaNeue">
       <main className="w-full flex flex-col justify-center items-center">
+        {/* Blue Line */}
+        <div className="absolute top-[18rem] w-[1000px]">
+          <img src="images/blueSquare.svg" alt="" />
+        </div>
+        {/* blue arrow(rupesh) */}
+        <div className="absolute left-[12.2rem] top-[31.8rem]">
+          <img src="images/arrow.svg" alt="" />
+        </div>
+        {/* blue Dot */}
+        {/* left */}
+        <div className="absolute left-[16.5rem] top-[17.7rem]">
+          <img src="images/blueDot.svg" alt="" />
+        </div>
+        <div className="absolute left-[16.5rem] top-[31.5rem]">
+          <img src="images/blueDot.svg" alt="" />
+        </div>
+
+        {/* right */}
+        <div className="absolute right-[16.5rem] top-[31.5rem]">
+          <img src="images/blueDot.svg" alt="" />
+        </div>
+        <div className="absolute right-[16.5rem] top-[17.7rem]">
+          <img src="images/blueDot.svg" alt="" />
+        </div>
+        {/* Blue dot end */}
         <div className="relative flex flex-col text-center">
-          <p className="text-[#232323] f-PPNeueBit text-[70px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[350px]">
+          <p className="text-[#232323] leading-[13rem] f-PPNeueBit text-[280px]">
             connect
           </p>
-          <p className="text-[#2229FF] f-HelveticaNeue text-[40px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[250px] mt-[-2rem] md:mt-[-3rem] lg:mt-[-5rem] xl:mt-[-7rem]">
+          {/* arrow 2(akshay) */}
+          <div className="absolute right-[3rem] top-[7rem]">
+            <img src="images/arrow2.svg" alt="" />
+          </div>
+          <p className="text-[#2229FF] leading-[14rem] f-HelveticaNeue text-[178px]">
             colabborate
           </p>
-          {/* <div className="absolute top-[28rem] w-[1200px] left-[-3rem]">
-            <img src="images/blueSquare.svg" alt="" />
-          </div> */}
         </div>
         <div className="mt-[-1rem] md:mt-[-2rem] lg:mt-[-3rem] xl:mt-[-4rem] flex flex-col md:flex-row gap-8 justify-center items-center text-center">
-          <span className="text-[40px] f-BelgianoSerif sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[250px]">
-            create
-          </span>
-          <p className="w-full f-HelveticaNeue text-[16px] text-[#232323]/40 md:w-[315px]  relative top-[1rem] md:top-[2rem] font-bold text-start">
+          <span className="mt-[1rem] f-BelgianoSerif text-[190px]">create</span>
+          <p className="px-[2rem] f-HelveticaNeue text-[14px] text-[#232323] w-[315px] relative font-[600] top-[2rem] text-start">
             The largest and most vibrant Indian community for entrepreneurs,
             creative minds, and digital wizards who want to design and develop
             something amazing. Here we help each other and make magic together.
           </p>
         </div>
-        <div className="flex justify-center items-center mt-8">
+        <div className="flex justify-center items-center">
           <button className="bg-[#2229FF] cursor-pointer p-2 px-3 rounded-full text-[#EEE8E2]">
             Join the community
           </button>
@@ -38,7 +62,7 @@ function Hero() {
       </main>
 
       {/* 2nd layout */}
-      <div className="p-[4rem] flex flex-col lg:flex-row justify-between items-center mt-[3rem] md:mt-[6rem] lg:mt-[10rem]">
+      <div className="p-[4rem] px-[5rem] flex flex-col lg:flex-row justify-between items-center mt-[2rem]">
         {/* 1 */}
         <div className="w-full lg:w-[50%] pt-9 px-10 leading-snug text-center lg:text-start">
           <h1 className="text-[30px] sm:text-[40px] md:text-[50px] f-HelveticaNeue">
@@ -50,8 +74,9 @@ function Hero() {
             </div>
           </div>
         </div>
+        {/* px-[4rem] */}
         {/* 2 */}
-        <div className="w-full lg:w-[50%] px-4 md:px-8 lg:px-[4rem] flex flex-col justify-around mt-8 lg:mt-0">
+        <div className="w-full lg:w-[50%]  flex flex-col px-[3rem] justify-around mt-8 lg:mt-0">
           <div className="flex items-center justify-between mb-4">
             <span className="f-PPNeueBit text-[40px] sm:text-[60px] md:text-[80px] lg:text-[150px] text-[#2229FF] font-bold">
               1100
@@ -62,12 +87,12 @@ function Hero() {
             </span>
             <img src="images/plus.svg" alt="Plus" />
           </div>
-          <div className="flex flex-col md:flex-row pl-3">
-            <p className="f-HelveticaNeue mb-4 md:mb-0">
+          <div className="flex flex-col md:flex-row gap-x-[6rem] text-[20px]">
+            <p className="f-HelveticaNeuelight">
               The largest and most vibrant Indian designer community for
               entrepreneurs, creative minds, and digital wizards.
             </p>
-            <p className="">
+            <p className="f-HelveticaNeuelight">
               Online and offline sessions organized by pros are the place to
               upgrade your knowledge.
             </p>
@@ -77,94 +102,134 @@ function Hero() {
 
       {/* 3rd */}
 
-      <div className="bg-[#2229FF] mt-[5rem] rounded-t-[2.5rem] text-white py-12 px-[10rem] ">
-        <h2 className="text-center text-[50px] my-[4rem]">
-          Explore our vibrant community
-        </h2>
-        <div className="flex flex-col md:flex-row justify-center gap-6">
-          {/* Card 1 */}
-          <div className="bg-[#00FB873D] rounded-3xl p-6 pr-[4rem] text-start md:w-1/3">
-            <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-              12,000+ Designers from all over the 🌍
-            </h3>
-            <p className="text-[16px] text-[#EEE8E2]/80">
-              All in one place to supercharge your career. Since 2020, creatives
-              have found refuge in our community where organic discussions, work
-              sessions and resources are shared
-            </p>
-          </div>
+      <div className="bg-[#2229FF] mt-[5rem] rounded-t-[2.5rem] text-white py-12  ">
+        <div className="px-[12rem]">
+          <h2 className="text-center text-[50px] my-[4rem]">
+            Explore our vibrant community
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-6">
+            {/* Card 1 */}
+            <div className="bg-[#00FB873D] rounded-3xl p-6 pl-[1rem] pr-[5rem] text-start md:w-1/3">
+              <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
+                12,000+ Designers from all over the🌍
+              </h3>
+              <p className="text-[17px] f-HelveticaNeuelight text-[#EEE8E2]/80">
+                All in one place to supercharge your career. Since 2020,
+                creatives have found refuge in our community where organic
+                discussions, work sessions and resources are shared
+              </p>
+            </div>
 
-          {/* Card 2 */}
-          <div className="bg-[#00FB873D] p-6 pr-[6rem]  rounded-3xl text-start md:w-1/3">
-            <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-              1000+ Professional Design Resources 📚
-            </h3>
-            <p className="text-[16px] text-[#EEE8E2]/80">
-              Spanning across all design fields, find tons of resources for
-              design tools, inspiration, design talks, cheat sheets, articles,
-              tutorials, and more, all updated daily, backed by the community.
-            </p>
-          </div>
+            {/* Card 2 */}
+            <div className="bg-[#00FB873D] p-6 pl-[1rem] pr-[5rem]  rounded-3xl text-start md:w-1/3">
+              <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
+                1000+ Professional Design Resources📚
+              </h3>
+              <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
+                Spanning across all design fields, find tons of resources for
+                design tools, inspiration, design talks, cheat sheets, articles,
+                tutorials, and more, all updated daily, backed by the community.
+              </p>
+            </div>
 
-          {/* Card 3 */}
-          <div className="bg-[#00FB873D] p-6 pr-[6rem] rounded-3xl text-start md:w-1/3">
-            <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-              Work sharing and portfolio feedback 👩‍💻
-            </h3>
-            <p className="text-[16px] text-[#EEE8E2]/80">
-              All in one place to supercharge your career. Since 2020, creatives
-              have found refuge in our community where organic discussions, work
-              sessions and resources are shared
-            </p>
+            {/* Card 3 */}
+            <div className="bg-[#00FB873D] p-6 pl-[1rem] pr-[5rem] rounded-3xl text-start md:w-1/3">
+              <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
+                Work sharing and portfolio feedback👩‍💻
+              </h3>
+              <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
+                All in one place to supercharge your career. Since 2020,
+                creatives have found refuge in our community where organic
+                discussions, work sessions and resources are shared
+              </p>
+            </div>
           </div>
         </div>
         {/* animation */}
 
-        <div className="relative">
+        <div className="relative  mt-[7rem]">
           {/* Text moving from left to right */}
-          <div className="relative overflow-x-hidden w-full h-[6rem] mt-[5rem] flex justify-center items-center">
-            {/* Subtle blue shadow gradient on the left */}
-            <div className="absolute left-0 top-0 w-[100px] h-full bg-gradient-to-r from-[#2229FF] z-40 via-[#2229FF]/30 to-transparent pointer-events-none"></div>
+          <div className="px-[10rem]">
+            <div className="relative  overflow-x-hidden w-screen h-[6rem] ml-[2rem] mt-[5rem] flex justify-center items-center">
+              {/* Subtle blue shadow gradient on the left */}
+              <div className="absolute left-0 top-0 w-[100px] h-full bg-gradient-to-r from-[#2229FF] z-40 via-[#2229FF]/30 to-transparent pointer-events-none"></div>
 
-            <div className="whitespace-nowrap animate-move-right text-lg font-medium text-fade-right">
-              <span className="inline-block text-[100px] f-PPNeueBit">
-                VISUAL DESIGNER PRODUCT DESIGNER UX DESIGNER
-              </span>
+              <div className="whitespace-nowrap animate-move-right text-lg font-medium text-fade-right">
+                <span className="inline-block text-[85px] f-PPNeueBit">
+                  VISUAL DESIGNER PRODUCT DESIGNER UX DESIGNER
+                </span>
+              </div>
             </div>
           </div>
-          <div className="absolute top-[-1rem] left-[-0.5rem]">
+          {/* line */}
+          <div className="z-50 absolute top-[-1.5rem] left-[11.5rem] w-screen">
             <img src="images/Rectangleleft.svg" alt="" />
           </div>
-          <div className="absolute top-[8.5rem] right-[-0.5rem]">
+          {/* right line */}
+          <div className="absolute w-screen top-[9.8rem]">
             <img src="images/RectangleRight.svg" alt="" />
           </div>
 
-          <div className="absolute top-[-1.1rem] left-[-0.6rem]">
+          <div className="absolute top-[-1.7rem] left-[11.4rem]">
             <img src="images/square.svg" alt="" />
           </div>
-          <div className="absolute left-[-0.6rem] top-[6.33rem]">
+          <div className="absolute left-[11.4rem] top-[6.7rem]">
             <img src="images/square.svg" alt="" />
           </div>
 
-          {/* Square svg 1st*/}
-          <div className="absolute top-[8.4rem] right-[-0.5rem]">
+          {/* Square svg 2nd*/}
+          <div className="absolute top-[9.7rem] z-50 right-[11.2rem]">
             <img src="images/square.svg" alt="" />
           </div>
-          <div className="absolute top-[15.8rem] right-[-0.5rem]">
+          <div className="absolute top-[17.99rem] right-[11.1rem]">
             <img src="images/square.svg" alt="" />
+          </div>
+
+          {/* community 1st and 2nd */}
+          <div className="relative">
+            <div className="absolute top-[-9.3rem] left-[11.5rem]">
+              <div className="px-[3.4rem] bg-white py-[0.7rem] rounded-md"></div>
+            </div>
+            <div className="absolute  top-[-8.95rem] left-[12rem]">
+              <img src="images/hash.svg" className="w-[0.7rem]" alt="" />
+            </div>
+            <div className="absolute top-[-9.47rem] left-[13rem]">
+              <span className="text-[#2229FF] text-[11.5px] font-[500] f-HelveticaNeue">
+                The community
+              </span>
+            </div>
+          </div>
+          <div className="relative right-[-66.3rem] top-[11.4rem]">
+            <div className="absolute top-[-9.3rem] left-[11.5rem]">
+              <div className="px-[3.4rem] bg-white py-[0.7rem] rounded-md"></div>
+            </div>
+            <div className="absolute  top-[-8.95rem] left-[12rem]">
+              <img src="images/hash.svg" className="w-[0.7rem]" alt="" />
+            </div>
+            <div className="absolute top-[-9.47rem] left-[13rem]">
+              <span className="text-[#2229FF] text-[11.5px] font-[500] f-HelveticaNeue">
+                The community
+              </span>
+            </div>
           </div>
 
           {/* Text moving from right to left */}
-          <div className="relative overflow-x-hidden w-full h-[6rem] mt-[3.5rem] flex justify-center items-center">
-            {/* Moving text */}
-            <div className="whitespace-nowrap animate-move-left text-lg font-medium text-fade-left">
-              <span className="inline-block text-[100px] f-PPNeueBit">
-                VISUAL DESIGNER PRODUCT DESIGNER UX DESIGNER
-              </span>
-            </div>
+          <div className="pr-[13rem] mt-[2rem]">
+            <div className="w-full overflow-hidden">
+              {" "}
+              {/* Ensure container hides overflow */}
+              <div className="relative w-full h-[6rem] mt-[3.5rem] flex justify-center items-center">
+                {/* Moving text */}
+                <div className="whitespace-nowrap animate-move-left text-lg font-medium text-fade-left">
+                  <span className="inline-block text-[85px] f-PPNeueBit">
+                    VISUAL DESIGNER PRODUCT DESIGNER UX DESIGNER
+                  </span>
+                </div>
 
-            {/* Right side blue shadow gradient */}
-            <div className="absolute right-0 top-0 w-[100px] h-full bg-gradient-to-l from-[#2229FF] z-40 via-[#2229FF]/30 to-transparent pointer-events-none"></div>
+                {/* Right side blue shadow gradient */}
+                <div className="absolute right-0 top-0 w-[100px] h-full bg-gradient-to-l from-[#2229FF] z-40 via-[#2229FF]/30 to-transparent pointer-events-none"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

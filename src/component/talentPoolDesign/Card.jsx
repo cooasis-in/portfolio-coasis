@@ -27,7 +27,7 @@ function Card() {
               <AnimatedTooltipPreview />
             </span>{" "}
           </span>
-          <span className="f-HelveticaNeue">&nbsp;l united</span>
+          <span className="f-HelveticaNeue">l united</span>
         </div>
         {/* Subheading */}
         <div className="f-BelgianoSerif text-[70px] leading-10 font-light text-black mt-4 text-center">
@@ -40,7 +40,7 @@ function Card() {
           <button
             key={filter}
             onClick={() => setSelected(filter)}
-            className={`px-4 py-2 rounded-full  ${
+            className={`px-4 py-2 rounded-full hover:bg-[#2229FF] hover:text-[#EEE8E2]  ${
               selected === filter
                 ? "bg-[#2229FF] text-[#EEE8E2]"
                 : "bg-[#DADADA] text-[#212121]"
@@ -66,10 +66,10 @@ function Card() {
         </div>
         {/* Title and Description */}
         <div className="text-white mt-4 pr-[15rem]">
-          <h2 className="text-[30px] text-[#EEE8E2] mb-2">
+          <h2 className="text-[37px] f-HelveticaNeue text-[#EEE8E2] mb-2">
             Forget Animal Print, Microbe is the New Chic
           </h2>
-          <p className="text-sm leading-relaxed w-[55%]">
+          <p className="f-HelveticaNeue text-[20px] leading-relaxed w-[68%]">
             We are always looking for speakers with inspiring backgrounds and
             incredible technical skills to speak at our events.
           </p>
@@ -77,7 +77,7 @@ function Card() {
       </div>
 
       {/* Small cards */}
-      <div className="flex justify-center">
+      <div className="f-HelveticaNeue flex justify-center">
         <div className="max-w-[70rem] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-[2.5rem] ">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((card, index) => (
             <div key={index} className="bg-[#232323] rounded-2xl p-4 shadow-md">
@@ -107,7 +107,7 @@ function Card() {
       </div>
 
       <div className="flex justify-center items-center mt-[3rem]">
-        <button className="bg-[#2229FF] cursor-pointer p-2 px-5 rounded-full text-[#EEE8E2]">
+        <button className="bg-[#2229FF] cursor-pointer f-HelveticaNeue p-2 px-5 rounded-full text-[#EEE8E2]">
           Show more
         </button>
         <p className="p-3 bg-[#C7C9FF] text-[#2229FF] rounded-full cursor-pointer">
