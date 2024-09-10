@@ -16,7 +16,7 @@ function Card() {
   ];
 
   return (
-    <div className="bg-[#EEE8E2] f-HelveticaNeue">
+    <div className="bg-[#EEE8E2] f-HelveticaNeue mb-20">
       {/* BODY */}
       <div className="flex flex-col justify-center mt-[8rem]">
         {/* Main Text */}
@@ -107,7 +107,7 @@ function Card() {
         </div>
       </div>
       <Link to="/thirdPage">
-      <div className="flex justify-center items-center mt-[3rem]">
+      <div className="flex justify-center items-center mt-6">
         <button className="bg-[#2229FF] cursor-pointer f-HelveticaNeue p-2 px-5 rounded-full text-[#EEE8E2]">
           Show more
         </button>
