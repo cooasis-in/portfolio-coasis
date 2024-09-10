@@ -73,6 +73,15 @@ const CommunityDesigner = () => {
         <span className="f-BelgianoSerif">designers.</span>
       </h1>
 
+      <div className="aboslute">
+        <div className="relative top-[-8.7rem] left-[18rem]">
+          <img src="images/rupeshArrow.svg" alt="" />
+        </div>
+        <div className="relative top-[-10.5rem] left-[19rem]">
+          <img src="images/rupeshRec.svg" alt="" />
+        </div>
+      </div>
+
       {/* First Slider */}
       <div className="w-full mt-10 px-4">
         <Slider {...settings}>
