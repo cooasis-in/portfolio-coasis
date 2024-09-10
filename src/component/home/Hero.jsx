@@ -45,7 +45,7 @@ function Hero() {
         </div>
         <div className="mt-[-1rem] md:mt-[-2rem] lg:mt-[-3rem] xl:mt-[-4rem] flex flex-col md:flex-row gap-8 justify-center items-center text-center">
           <span className="mt-[1rem] f-BelgianoSerif text-[190px]">create</span>
-          <p className="px-[2rem] f-HelveticaNeue text-[14px] text-[#232323] w-[315px] relative font-semibold top-[2rem] text-start">
+          <p className="px-[2rem] f-HelveticaNeue text-[14px] text-[#232323] w-[315px] relative font-[600] top-[2rem] text-start">
             The largest and most vibrant Indian community for entrepreneurs,
             creative minds, and digital wizards who want to design and develop
             something amazing. Here we help each other and make magic together.
@@ -62,7 +62,7 @@ function Hero() {
       </main>
 
       {/* 2nd layout */}
-      <div className="p-[4rem] flex flex-col lg:flex-row justify-between items-center mt-[2rem]">
+      <div className="p-[4rem] px-[5rem] flex flex-col lg:flex-row justify-between items-center mt-[2rem]">
         {/* 1 */}
         <div className="w-full lg:w-[50%] pt-9 px-10 leading-snug text-center lg:text-start">
           <h1 className="text-[30px] sm:text-[40px] md:text-[50px] f-HelveticaNeue">
@@ -74,8 +74,9 @@ function Hero() {
             </div>
           </div>
         </div>
+        {/* px-[4rem] */}
         {/* 2 */}
-        <div className="w-full lg:w-[50%] px-4 md:px-8 lg:px-[4rem] flex flex-col justify-around mt-8 lg:mt-0">
+        <div className="w-full lg:w-[50%]  flex flex-col px-[3rem] justify-around mt-8 lg:mt-0">
           <div className="flex items-center justify-between mb-4">
             <span className="f-PPNeueBit text-[40px] sm:text-[60px] md:text-[80px] lg:text-[150px] text-[#2229FF] font-bold">
               1100
@@ -86,12 +87,12 @@ function Hero() {
             </span>
             <img src="images/plus.svg" alt="Plus" />
           </div>
-          <div className="flex flex-col md:flex-row pl-3">
-            <p className="f-HelveticaNeue mb-4 md:mb-0">
+          <div className="flex flex-col md:flex-row gap-x-[6rem] text-[20px]">
+            <p className="f-HelveticaNeuelight">
               The largest and most vibrant Indian designer community for
               entrepreneurs, creative minds, and digital wizards.
             </p>
-            <p className="">
+            <p className="f-HelveticaNeuelight">
               Online and offline sessions organized by pros are the place to
               upgrade your knowledge.
             </p>
@@ -102,7 +103,7 @@ function Hero() {
       {/* 3rd */}
 
       <div className="bg-[#2229FF] mt-[5rem] rounded-t-[2.5rem] text-white py-12  ">
-        <div className="px-[10rem]">
+        <div className="px-[12rem]">
           <h2 className="text-center text-[50px] my-[4rem]">
             Explore our vibrant community
           </h2>
@@ -110,9 +111,9 @@ function Hero() {
             {/* Card 1 */}
             <div className="bg-[#00FB873D] rounded-3xl p-6 pl-[1rem] pr-[5rem] text-start md:w-1/3">
               <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-                12,000+ Designers from all over the 🌍
+                12,000+ Designers from all over the🌍
               </h3>
-              <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
+              <p className="text-[17px] f-HelveticaNeuelight text-[#EEE8E2]/80">
                 All in one place to supercharge your career. Since 2020,
                 creatives have found refuge in our community where organic
                 discussions, work sessions and resources are shared
@@ -122,7 +123,7 @@ function Hero() {
             {/* Card 2 */}
             <div className="bg-[#00FB873D] p-6 pl-[1rem] pr-[5rem]  rounded-3xl text-start md:w-1/3">
               <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-                1000+ Professional Design Resources 📚
+                1000+ Professional Design Resources📚
               </h3>
               <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
                 Spanning across all design fields, find tons of resources for
@@ -134,7 +135,7 @@ function Hero() {
             {/* Card 3 */}
             <div className="bg-[#00FB873D] p-6 pl-[1rem] pr-[5rem] rounded-3xl text-start md:w-1/3">
               <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-                Work sharing and portfolio feedback 👩‍💻
+                Work sharing and portfolio feedback👩‍💻
               </h3>
               <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
                 All in one place to supercharge your career. Since 2020,

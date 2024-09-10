@@ -5,6 +5,7 @@
 body {
   cursor: url("/images/cursor.svg"), auto;
   background-color: #eee8e2 !important;
+  letter-spacing: -0.5px;
 }
 
 .container {
