@@ -10,7 +10,7 @@ const HomeMaster = () => {
   return (
     <div>
       {/* <DotGrid/> */}
-      <WaterDropGrid />
+      {/* <WaterDropGrid /> */}
       <Hero />
       <CommunityDesigner />
       <WorkShowcase />
