@@ -22,6 +22,7 @@ body {
 
 * {
   scrollbar-width: none;
+  /* overflow-x: hidden !important; */
 }
 
 /* fonts */
