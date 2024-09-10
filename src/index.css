@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 body {
-  cursor: url("/images/cursor.svg"), auto;
+  /* cursor: url("/images/cursor.svg"), auto; */
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><circle cx="8" cy="8" r="4" fill="black" /></svg>')
+      8 8,
+    auto;
   background-color: #eee8e2 !important;
   letter-spacing: -0.5px;
+}
+:root {
+  --color-trail: #e1ff26;
 }
 
 .container {

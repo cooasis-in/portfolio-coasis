@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AnimalPrint = () => {
   return (
@@ -8,7 +9,9 @@ const AnimalPrint = () => {
           <div>
             <p className="text-[#212121] text-[20px] leading-[22px] mx-auto font-medium f-HelveticaNeue">
               Articles • Fashion{' '} &nbsp;&nbsp;
+              <Link to="/fourthPage">
               <span><a className="text-[#2229FF] cursor-pointer">4 August 2024</a></span>
+              </Link>
             </p>
             <div className="mx-auto pt-6">
               <h1 className="f-HelveticaNeue text-[80px] text-[#232323] leading-[90px] max-w-[900px] mx-auto text-center">

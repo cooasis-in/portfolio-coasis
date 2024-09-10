@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { AnimatedTooltipPreview } from "../common/AnimatedTooltipPreview";
+import { Link } from "react-router-dom";
 
 function Card() {
   const [selected, setSelected] = useState("All");
@@ -105,7 +106,7 @@ function Card() {
           ))}
         </div>
       </div>
-
+      <Link to="/thirdPage">
       <div className="flex justify-center items-center mt-[3rem]">
         <button className="bg-[#2229FF] cursor-pointer f-HelveticaNeue p-2 px-5 rounded-full text-[#EEE8E2]">
           Show more
@@ -114,6 +115,7 @@ function Card() {
           <FaArrowRightLong />
         </p>
       </div>
+      </Link>
     </div>
   );
 }

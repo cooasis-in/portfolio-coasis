@@ -7,7 +7,8 @@ const TalentPoolDesign = () => {
       {/* Title Section */}
       <div className="text-center mb-8">
         <h1 className="f-HelveticaNeue text-4xl text-[80px] text-[#EEE8E2] leading-[90px] pb-6">
-          Talent pool united <br /> by <span className="f-BelgianoSerif">design</span>
+          Talent pool united <br /> by{" "}
+          <span className="f-BelgianoSerif">design</span>
         </h1>
       </div>
 
@@ -28,12 +29,12 @@ const TalentPoolDesign = () => {
           </button>
         </div>
         <div className="flex justify-center items-center space-x-4 mt-5">
-        <button className="f-HelveticaNeue px-6 py-2 rounded-full bg-[#1A1A1A] text-[#403F3E] hover:text-[#EEE8E2]">
+          <button className="f-HelveticaNeue px-6 py-2 rounded-full bg-[#1A1A1A] text-[#403F3E] hover:text-[#EEE8E2]">
             Fashion
           </button>
           <button className="f-HelveticaNeue px-6 py-2 rounded-full bg-[#1A1A1A] text-[#403F3E] hover:text-[#EEE8E2]">
             Tech
-          </button> 
+          </button>
         </div>
       </div>
 
@@ -71,13 +72,12 @@ const TalentPoolDesign = () => {
 
       {/* Show more button */}
       <Link to="/secondPage">
-      <div className="flex justify-center">
-     
-        <button className="f-HelveticaNeue px-6 py-3 text-[20px] leading-[23px] rounded-full bg-[#1A1A1A] text-[#403F3E] hover:text-[#EEE8E2]">
-          Show more 
-        </button>
-        <img src="/images/black-arrow.svg" alt="" />
-      </div>
+        <div className="flex justify-center">
+          <button className="f-HelveticaNeue px-6 py-3 text-[20px] leading-[23px] rounded-full bg-[#1A1A1A] text-[#403F3E] hover:text-[#EEE8E2]">
+            Show more
+          </button>
+          <img src="/images/black-arrow.svg" alt="" />
+        </div>
       </Link>
     </div>
   );
