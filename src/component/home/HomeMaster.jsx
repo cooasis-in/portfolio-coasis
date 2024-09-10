@@ -11,8 +11,6 @@ import FutureNetworkSection from "./FutureNetworkSection";
 const HomeMaster = () => {
   return (
     <div>
-      {/* <DotGrid/> */}
-      {/* <WaterDropGrid /> */}
       <Hero />
       <CommunityDesigner />
       <WorkShowcase />
