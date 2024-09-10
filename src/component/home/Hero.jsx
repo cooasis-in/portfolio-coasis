@@ -103,7 +103,7 @@ function Hero() {
 
       {/* 3rd */}
 
-      {/* <OurCommunity /> */}
+      <OurCommunity />
     </div>
   );
 }

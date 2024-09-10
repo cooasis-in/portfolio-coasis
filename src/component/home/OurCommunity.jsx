@@ -2,7 +2,7 @@ import React from "react";
 
 function OurCommunity() {
   return (
-    <div className="bg-[#2229FF] mt-[5rem] rounded-t-[2.5rem] text-white py-12  ">
+    <div className="bg-[#2229FF] mt-[5rem] overflow-x-hidden rounded-t-[2.5rem] text-white py-12  ">
       <div className="px-[12rem]">
         <h2 className="text-center text-[50px] my-[4rem]">
           Explore our vibrant community
