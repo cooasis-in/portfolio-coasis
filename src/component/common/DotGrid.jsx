@@ -10,9 +10,8 @@ const DotGrid = ({ children }) => {
 
   // Set the dot size
   const dotSize = 20;
-  const proximityRadius = 14 // Number of rows/cols around the hovered dot to fade
+  const proximityRadius = 18;
 
-  // Update the screen size dynamically when the window is resized
   useEffect(() => {
     const handleResize = () => {
       setScreenSize({ width: window.innerWidth, height: window.innerHeight });
