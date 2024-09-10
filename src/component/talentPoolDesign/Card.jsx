@@ -16,13 +16,6 @@ function Card() {
 
   return (
     <div className="bg-[#EEE8E2] f-HelveticaNeue">
-      {/* NAVBAR */}
-      {/* <nav className="flex justify-between p-8 items-center z-40">
-        <div></div>
-        <img className="cursor-pointer" src="images/logo.svg" alt="Logo" />
-        <p className="text-[#232323] text-[20px] cursor-pointer">Menu</p>
-      </nav> */}
-
       {/* BODY */}
       <div className="flex flex-col justify-center mt-[8rem]">
         {/* Main Text */}

@@ -6,18 +6,18 @@ const AnimalPrint = () => {
       <section className="pt-20 pb-16 max-w-[900px] flex flex-col justify-center items-center mx-auto">
         <div className="w-full max-w-[900px] text-center">
           <div>
-            <p className="text-[#212121] text-[20px] leading-[22px] mx-auto font-medium">
-              Articles • Fashion{' '}
+            <p className="text-[#212121] text-[20px] leading-[22px] mx-auto font-medium f-HelveticaNeue">
+              Articles • Fashion{' '} &nbsp;&nbsp;
               <span><a className="text-[#2229FF] cursor-pointer">4 August 2024</a></span>
             </p>
             <div className="mx-auto pt-6">
-              <h1 className="text-[80px] text-[#232323] leading-[90px] max-w-[900px] mx-auto text-center">
+              <h1 className="f-HelveticaNeue text-[80px] text-[#232323] leading-[90px] max-w-[900px] mx-auto text-center">
                 Forget Animal Print,
               </h1>
-              <h2 className="text-[80px] text-[#232323] leading-[90px] max-w-[900px] mx-auto text-start">
+              <h2 className="f-HelveticaNeue text-[80px] text-[#232323] leading-[90px] max-w-[900px] mx-auto text-start">
                 Microbe is the New Chic
               </h2>
-              <p className="text-[25px] text-[#232323] leading-[31px] max-w-[800px] pt-6 text-start">
+              <p className="f-HelveticaNeue text-[25px] text-[#232323] leading-[31px] max-w-[800px] pt-6 text-start">
                 How Mohamad Anas's 'Beasts of the Urban Jungle' is blurring the lines between lab and runway
               </p>
             </div>
@@ -28,7 +28,7 @@ const AnimalPrint = () => {
             <div>
               <img src="/images/outfit-1.svg" alt="Outfit 1" />
             </div>
-              <p className="text-[25px] text-[#232323] leading-[31px] pt-8 text-start">
+              <p className="f-HelveticaNeue text-[25px] text-[#232323] leading-[31px] pt-8 text-start">
               Emerging designer Mohamad Anas is disrupting the $185 billion streetwear market with his innovative "Beasts of the Urban Jungle" collection.
               <br />
               <br />
@@ -43,7 +43,7 @@ const AnimalPrint = () => {
                   <img src="/images/outfit-3.svg" alt="" className="w-[430px] h-[360px]" />
                 </div>
               </div>
-              <p className="text-[25px] text-[#232323] leading-[31px] pt-8 text-start">
+              <p className="f-HelveticaNeue text-[25px] text-[#232323] leading-[31px] pt-8 text-start">
               "Beasts of the Urban Jungle" feels deeper than just a clothing line. We recommend thinking of this as intellectual commentary on the adaptive spirit of urban environments. The young designer describes his collection as "a profound symbiosis between the microscopic wonders of nature and the relentless energy of cityscapes". Each piece in the collection showcases intricate patterns reminiscent of these micro-organisms, translated into a fierce, modern aesthetic that celebrates individuality.
               It's too early to say but this collection could be the harbinger of a new era in streetwear, where the lines between natural science, urban living, and fashion become beautifully blurred.
               </p>
