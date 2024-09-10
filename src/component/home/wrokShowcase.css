@@ -1,0 +1,7 @@
+.tooltip {
+    position: absolute;
+    top: -50%; /* Adjust this to vertically align the tooltip as in the image */
+    left: 50%; /* Center the tooltip relative to the text */
+    transform: translateX(-50%);
+  }
+  
