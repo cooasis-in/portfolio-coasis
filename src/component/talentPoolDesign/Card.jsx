@@ -16,7 +16,7 @@ function Card() {
   ];
 
   return (
-    <div className=" container bg-[#EEE8E2] f-HelveticaNeue mb-20">
+    <div className="container bg-[#EEE8E2] f-HelveticaNeue mb-20">
       {/* BODY */}
       <div className="flex flex-col justify-center mt-[2rem]">
         {/* Main Text */}
