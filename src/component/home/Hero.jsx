@@ -62,44 +62,45 @@ function Hero() {
         </div>
       </main>
 
-      {/* 2nd layout */}
-      <div className="p-[4rem] px-[5rem] flex flex-col lg:flex-row justify-between items-center mt-[2rem]">
-        {/* 1 */}
-        <div className="w-full lg:w-[50%] pt-9 px-10 leading-snug text-center lg:text-start">
-          <h1 className="text-[30px] sm:text-[40px] md:text-[50px] f-HelveticaNeue">
-            Together we unleash the design revolution around the globe
-          </h1>
-          <div className="relative mt-4">
-            <div className="absolute flex -space-x-4 top-[-1.5rem] md:top-[-2rem] lg:top-[-4.5rem] left-1/2 lg:left-[14rem] transform -translate-x-1/2 lg:transform-none">
-              <AnimatedTooltipPreview />
-            </div>
-          </div>
-        </div>
-        {/* px-[4rem] */}
-        {/* 2 */}
-        <div className="w-full lg:w-[50%]  flex flex-col px-[3rem] justify-around mt-8 lg:mt-0">
-          <div className="flex items-center justify-between mb-4">
-            <span className="f-PPNeueBit text-[40px] sm:text-[60px] md:text-[80px] lg:text-[150px] text-[#2229FF] font-bold">
-              1100
-            </span>
-            <img src="images/plus.svg" alt="Plus" />
-            <span className="f-PPNeueBit text-[90px] sm:text-[60px] md:text-[80px] lg:text-[150px] text-[#2229FF] font-bold">
-              40
-            </span>
-            <img src="images/plus.svg" alt="Plus" />
-          </div>
-          <div className="flex flex-col md:flex-row gap-x-[6rem] text-[20px]">
-            <p className="f-HelveticaNeuelight">
-              The largest and most vibrant Indian designer community for
-              entrepreneurs, creative minds, and digital wizards.
-            </p>
-            <p className="f-HelveticaNeuelight">
-              Online and offline sessions organized by pros are the place to
-              upgrade your knowledge.
-            </p>
-          </div>
-        </div>
+      {/* Second Section*/}
+      <div className="container p-2 flex flex-col lg:flex-row justify-between items-center">
+  {/* Left Side */}
+  <div className="w-full lg:w-1/2 pt-9 px-10  leading-[50px] text-center lg:text-start">
+    <h1 className="text-[30px] sm:text-[40px] md:text-[50px] f-HelveticaNeue">
+      Together we unleash the design revolution around the globe
+    </h1>
+    <div className="relative mb-10">
+      <div className="absolute flex top-0 md:top-[-2rem] lg:top-[-3rem] left-1/2 lg:left-[14rem]">
+        <AnimatedTooltipPreview />
       </div>
+    </div>
+  </div>
+
+  {/* Right Side */}
+  <div className="w-full lg:w-1/2 flex flex-col px-[3rem] justify-around mt-8 lg:mt-0">
+    <div className="flex items-center justify-between">
+      <span className="f-PPNeueBit text-[40px] sm:text-[60px] md:text-[80px] lg:text-[150px] text-[#2229FF] font-bold">
+        1100
+      </span>
+      <img src="images/plus.svg" alt="Plus" />
+      <span className="f-PPNeueBit text-[90px] sm:text-[60px] md:text-[80px] lg:text-[150px] text-[#2229FF] font-bold">
+        40
+      </span>
+      <img src="images/plus.svg" alt="Plus" />
+    </div>
+    <div className="flex leading-6 flex-col md:flex-row gap-x-[3rem] text-[18px]">
+      <p className="f-HelveticaNeuelight">
+        The largest and most vibrant Indian designer community for entrepreneurs, creative minds, and digital wizards.
+      </p>
+      <div>
+      <p className="f-HelveticaNeuelight">
+        Online and offline sessions organized by pros are the place to upgrade your knowledge.
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       {/* 3rd */}
 

@@ -67,7 +67,7 @@ const CommunityDesigner = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center py-10">
+    <div className="flex flex-col items-center py-8">
       <h1 className="f-HelveticaNeue text-center text-[80px] leading-[90px] text-[#232323]">
         A community by <br /> designers for <br />{" "}
         <span className="f-BelgianoSerif">designers.</span>
@@ -83,7 +83,7 @@ const CommunityDesigner = () => {
       </div>
 
       {/* First Slider */}
-      <div className="w-full mt-10 px-4">
+      <div className="w-full px-4">
         <Slider {...settings}>
           {imagesFirstSlider.map((image, index) => (
             <div key={index} className="p-2">

@@ -3,7 +3,7 @@ import React from 'react';
 const DesignInstitute = () => {
   return (
     <>
-      <section className="py-16">
+      <section className="py-10">
         <div className="container mx-auto bg-[#2229FF] rounded-[20px]">
           <div className="max-w-[800px] mx-auto pt-10">
             <h2 className="f-HelveticaNeue text-[40px] sm:text-[60px] lg:text-[80px] text-[#EEE8E2] leading-[50px] sm:leading-[70px] lg:leading-[90px] text-center">

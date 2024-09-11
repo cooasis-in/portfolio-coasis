@@ -4,7 +4,7 @@ import "./wrokShowcase.css";
 
 const WorkShowcase = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-6 pt-20 pb-28">
+    <div className="flex flex-col justify-center items-center px-6 pt-6 pb-28">
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="f-HelveticaNeue text-4xl md:text-[80px] text-[#232323] leading-[80px]">
