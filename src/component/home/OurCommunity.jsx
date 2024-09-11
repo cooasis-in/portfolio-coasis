@@ -3,48 +3,51 @@ import React from "react";
 function OurCommunity() {
   return (
     <div className="bg-[#2229FF] mt-[5rem] overflow-x-hidden rounded-t-[2.5rem] text-white py-12  ">
-      <div className="px-[12rem]">
-        <h2 className="text-center text-[50px] my-[4rem]">
-          Explore our vibrant community
-        </h2>
-        <div className="flex flex-col md:flex-row justify-center gap-6">
-          {/* Card 1 */}
-          <div className="bg-[#00FB873D] rounded-3xl p-6 pl-[1rem] pr-[5rem] text-start md:w-1/3">
-            <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-              12,000+ Designers from all over the🌍
-            </h3>
-            <p className="text-[17px] f-HelveticaNeuelight text-[#EEE8E2]/80">
-              All in one place to supercharge your career. Since 2020, creatives
-              have found refuge in our community where organic discussions, work
-              sessions and resources are shared
-            </p>
-          </div>
+      <div className="bg-[#2229FF] overflow-x-hidden rounded-t-[2.5rem] text-white">
+        <div className="px-[10rem]">
+          <h2 className="text-center f-HelveticaNeue text-[45px] my-12">
+            Explore our vibrant community
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-4">
+            {/* Card 1 */}
+            <div className="bg-[#00FB873D] rounded-3xl p-6 pl-[1.5rem] pr-[2.5rem] text-cente md:w-1/3">
+              <h3 className="text-[24px] f-HelveticaNeue text-[#EEE8E2] mb-6">
+                12,000+ Designers <br /> from all over the
+              </h3>
+              <p className="text-[15px] py-2 f-HelveticaNeue text-[#EEE8E2]/80">
+                All in one place to supercharge your career. Since 2020,
+                creatives have found refuge in our community where organic
+                discussions, work sessions, and resources are shared.
+              </p>
+            </div>
 
-          {/* Card 2 */}
-          <div className="bg-[#00FB873D] p-6 pl-[1rem] pr-[5rem]  rounded-3xl text-start md:w-1/3">
-            <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-              1000+ Professional Design Resources📚
-            </h3>
-            <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
-              Spanning across all design fields, find tons of resources for
-              design tools, inspiration, design talks, cheat sheets, articles,
-              tutorials, and more, all updated daily, backed by the community.
-            </p>
-          </div>
+            {/* Card 2 */}
+            <div className="bg-[#00FB873D] p-6 pl-[1.5rem] pr-[2.5rem] rounded-3xl md:w-1/3">
+              <h3 className="text-[24px] f-HelveticaNeue text-[#EEE8E2] mb-6">
+                1000+ Professional <br /> Design Resources
+              </h3>
+              <p className="text-[15px] py-2 f-HelveticaNeue text-[#EEE8E2]/80">
+                Spanning across all design fields, find tons of resources for
+                design tools, inspiration, design talks, cheat sheets, articles,
+                tutorials, and more, updated daily by the community.
+              </p>
+            </div>
 
-          {/* Card 3 */}
-          <div className="bg-[#00FB873D] p-6 pl-[1rem] pr-[5rem] rounded-3xl text-start md:w-1/3">
-            <h3 className="text-[27px] text-[#EEE8E2] mb-[3rem]">
-              Work sharing and portfolio feedback👩‍💻
-            </h3>
-            <p className="text-[16px] f-HelveticaNeuelight text-[#EEE8E2]/80">
-              All in one place to supercharge your career. Since 2020, creatives
-              have found refuge in our community where organic discussions, work
-              sessions and resources are shared
-            </p>
+            {/* Card 3 */}
+            <div className="bg-[#00FB873D] p-6 pl-[1.5rem] pr-[2.5rem] rounded-3xl md:w-1/3">
+              <h3 className="text-[24px] f-HelveticaNeue text-[#EEE8E2] mb-6">
+                Work sharing and <br /> portfolio feedback
+              </h3>
+              <p className="text-[15px]  py-2 f-HelveticaNeue text-[#EEE8E2]/80">
+                All in one place to supercharge your career. Since 2020,
+                creatives have found refuge in our community where organic
+                discussions, work sessions and resources are shared
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
       {/* animation */}
 
       <div className="relative  mt-[7rem]">
