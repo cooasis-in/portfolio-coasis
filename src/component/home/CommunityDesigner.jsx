@@ -67,14 +67,23 @@ const CommunityDesigner = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center py-10">
+    <div className="flex flex-col items-center py-8">
       <h1 className="f-HelveticaNeue text-center text-[80px] leading-[90px] text-[#232323]">
         A community by <br /> designers for <br />{" "}
         <span className="f-BelgianoSerif">designers.</span>
       </h1>
 
+      <div className="aboslute">
+        <div className="relative top-[-8.7rem] left-[18rem]">
+          <img src="images/rupeshArrow.svg" alt="" />
+        </div>
+        <div className="relative top-[-10.5rem] left-[19rem]">
+          <img src="images/rupeshRec.svg" alt="" />
+        </div>
+      </div>
+
       {/* First Slider */}
-      <div className="w-full mt-10 px-4">
+      <div className="w-full px-4">
         <Slider {...settings}>
           {imagesFirstSlider.map((image, index) => (
             <div key={index} className="p-2">

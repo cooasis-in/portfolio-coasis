@@ -16,23 +16,24 @@ function Card() {
   ];
 
   return (
-    <div className="bg-[#EEE8E2] f-HelveticaNeue mb-20">
+    <div className=" container bg-[#EEE8E2] f-HelveticaNeue mb-20">
       {/* BODY */}
-      <div className="flex flex-col justify-center mt-[8rem]">
+      <div className="flex flex-col justify-center mt-[2rem]">
         {/* Main Text */}
-        <div className="text-[70px]  text-black text-center">
-          {/* Talent p */}
+        <div className="text-[70px] text-black text-center">
           <span className="f-HelveticaNeue">
-            <span>Talent </span>p
-            <span className="relative mt-8 inline-block align-middle">
+            <span>Talent </span>
+            <span>p</span>
+            <span className="relative inline-block align-middle mt-8">
               <AnimatedTooltipPreview />
             </span>{" "}
+            <span>l united</span>
           </span>
-          <span className="f-HelveticaNeue">l united</span>
         </div>
+
         {/* Subheading */}
-        <div className="f-BelgianoSerif text-[70px] leading-10 font-light text-black mt-4 text-center">
-          <span className="f-HelveticaNeue">by</span> design
+        <div className="f-BelgianoSerif text-[70px] leading-10 font-light text-black text-center">
+          <span className="f-HelveticaNeue">by design</span>
         </div>
       </div>
 
@@ -107,14 +108,14 @@ function Card() {
         </div>
       </div>
       <Link to="/thirdPage">
-      <div className="flex justify-center items-center mt-6">
-        <button className="bg-[#2229FF] cursor-pointer f-HelveticaNeue p-2 px-5 rounded-full text-[#EEE8E2]">
-          Show more
-        </button>
-        <p className="p-3 bg-[#C7C9FF] text-[#2229FF] rounded-full cursor-pointer">
-          <FaArrowRightLong />
-        </p>
-      </div>
+        <div className="flex justify-center items-center mt-6">
+          <button className="bg-[#2229FF] cursor-pointer f-HelveticaNeue p-2 px-5 rounded-full text-[#EEE8E2]">
+            Show more
+          </button>
+          <p className="p-3 bg-[#C7C9FF] text-[#2229FF] rounded-full cursor-pointer">
+            <FaArrowRightLong />
+          </p>
+        </div>
       </Link>
     </div>
   );
