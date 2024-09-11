@@ -67,14 +67,23 @@ const CommunityDesigner = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center py-10">
+    <div className="flex flex-col items-center py-8">
       <h1 className="f-HelveticaNeue text-center text-[80px] leading-[90px] text-[#232323]">
         A community by <br /> designers for <br />{" "}
         <span className="f-BelgianoSerif">designers.</span>
       </h1>
 
+      <div className="aboslute">
+        <div className="relative top-[-8.7rem] left-[18rem]">
+          <img src="images/rupeshArrow.svg" alt="" />
+        </div>
+        <div className="relative top-[-10.5rem] left-[19rem]">
+          <img src="images/rupeshRec.svg" alt="" />
+        </div>
+      </div>
+
       {/* First Slider */}
-      <div className="w-full mt-10 px-4">
+      <div className="w-full px-4">
         <Slider {...settings}>
           {imagesFirstSlider.map((image, index) => (
             <div key={index} className="p-2">
@@ -190,16 +199,10 @@ const CommunityDesigner = () => {
                 {openIndexes.secondSlider === index && (
                   <div className="absolute bottom-[107px] left-0 right-0 bg-[#FFFFFF57] backdrop-blur p-3 rounded-tl-[15px] rounded-tr-[15px] mx-3">
                     <div className="border-b-[1px] border-b-[#FFFFFF36]">
-                      <p className="f-HelveticaNeue text-[13px] text-[#080808] leading-[15px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum."
+                    <p className="f-HelveticaNeue text-[13px] text-[#080808] leading-[15px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <br />
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                       </p>
                       <div className="flex items-start space-x-4 my-3 relative">
                         <div className="absolute bottom-[2px]">

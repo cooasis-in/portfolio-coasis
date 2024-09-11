@@ -2,7 +2,7 @@ import React from 'react';
 
 const FutureNetworkSection = () => {
   return (
-    <div className="container mx-auto pt-10 pb-16">
+    <div className="container mx-auto pt-8 pb-16">
       <div className="flex flex-col items-center justify-center bg-[#EEE8E2]">
       {/* Heading Section */}
       <h2 className="f-HelveticaNeue text-[80px] text-[#232323] leading-[90px] max-w-[800px] text-center">

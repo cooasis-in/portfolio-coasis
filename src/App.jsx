@@ -9,7 +9,7 @@ import DesignMaster from "./component/talentPoolDesign/DesignMaster";
 function App() {
   return (
     <>
-       <MouseAnimation />
+      <MouseAnimation />
       <Routes>
         <Route path="/" element={<HomeMaster />} />
         <Route path="/secondPage" element={<DesignMaster />} />
