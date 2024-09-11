@@ -8,7 +8,7 @@ import MouseAnimation from "./component/common/MouseAnimation";
 function App() {
   return (
     <>
-       <MouseAnimation />
+      <MouseAnimation />
       <Routes>
         <Route path="/" element={<HomeMaster />} />
         <Route path="/secondPage" element={<DesignMaster />} />
